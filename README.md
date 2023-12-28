@@ -1,4 +1,4 @@
-# UFO Country Prediction with Logistic Regression and Flask
+# 🛸 UFO Country Prediction with Logistic Regression and Flask
 
 Welcome to the UFO Country Prediction project! In this beginner-level project, I explored the deployment of a machine learning model that predicts the country where UFO sightings have been reported over the past century. The model is built using the logistic regression algorithm, and the entire application is deployed using Flask and Streamlit.
 
