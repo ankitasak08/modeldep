@@ -10,10 +10,7 @@ def predict(input_features):
     return model.predict([np.array(numeric_features)])[0]
 
 def main():
-    st.set_page_config(page_title="UFO Prediction App", page_icon="👽")
-    st.title("UFO Country Prediction App")
-    st.write("This app predicts the likely country of origin for a given set of features.")
-
+    
     st.markdown("""
         <style>
             body {
@@ -77,7 +74,7 @@ def main():
             }
         </style>
     """, unsafe_allow_html=True)
-
+    st.set_page_config(page_title="UFO Prediction App", page_icon="👽")
     st.title("🛸 UFO Appearance Prediction!")
     st.write("According to the number of seconds, latitude, and longitude, which country is likely to have reported seeing a UFO?")
 
