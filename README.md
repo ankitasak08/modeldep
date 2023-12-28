@@ -53,10 +53,15 @@ To run this project locally, follow these steps:
 
 ## Project Structure
 
-- `app.py`: The main Flask application file.
-- `logregmodel.ipynb`: Implementation of the logistic regression model.
--  `ufo-model.pkl`: The pickle file for our Flask app
--  `ufo.csv`: The UFO Dataset
+- `logregmodel.ipynb` : Jupyter Notebook file containing the implementation and analysis of the logistic regression model.
+
+- `mod.py` : Python script containing the implementation of the logistic regression model in a modularized form.
+
+- `requirements.txt`: File specifying the required Python packages and dependencies. Install them using the command pip install -r requirements.txt.
+
+- `ufo-model.pkl` : Pickle file containing the trained logistic regression model. This file is used in the deployment phase to make predictions.
+
+- `ufodata.csv` : CSV file containing the dataset of UFO sightings, which is used for training and testing the machine learning model.
 
 ## Acknowledgments
 
