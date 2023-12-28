@@ -54,7 +54,9 @@ To run this project locally, follow these steps:
 ## Project Structure
 
 - `app.py`: The main Flask application file.
-- `model.py`: Implementation of the logistic regression model.
+- `logregmodel.ipynb`: Implementation of the logistic regression model.
+-  `ufo-model.pkl`: The pickle file for our Flask app
+-  `ufo.csv`: The UFO Dataset
 
 ## Acknowledgments
 
